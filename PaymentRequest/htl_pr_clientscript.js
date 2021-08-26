@@ -2,6 +2,12 @@
  *@NApiVersion 2.0
  *@NScriptType ClientScript
  */
+ /*
+ Changes For Following
+ 1.Classification on Changes to be set to default
+ 2.Default TDS Section
+ 3.Set Default values on Changes For Tds Section,Line Amt
+ */
 define(['N/search', 'N/currentRecord', 'N/record'], function(search, currentRecord, records) {
     var record = currentRecord.get();
 
